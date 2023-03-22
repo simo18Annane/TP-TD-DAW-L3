@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exo1.css">
+    <script src="exo1.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Demande de subventions associations</h1>
+    <form id="formulaire1">
+        <fieldset>
+            <legend>Identité</legend>
+            <div class="ligne">
+                <div class="col1">
+                    <label for="type">Type d'association: </label>
+                </div>
+                <div class="col2">
+                    <select id="association" name="association">
+                        <option value="barca">Barca</option>
+                        <option value="raja">Raja</option>
+                        <option value="madrid">Madrid</option>
+                        <option value="psg">PSG</option>
+                    </select>
+                </div>
+            </div>
+            <div class="ligne">
+                <div class="col1">
+                    <label for="nomP">Nom du président<br> déclaré en préfecture: </label>
+                </div>
+                <div class="l2">
+                    <input type="text" id="nomP" name="nomP">
+                </div>
+            </div>
+            <div class="ligne">
+                <div class="col1">
+                    <label for="nomA">Nom de l'association: </label>
+                </div>
+                <div class="col2">
+                    <input type="text" id="nomA" name="nomA">
+                </div>
+            </div>
+            <div class="ligne">
+                <div class="col1">
+                    <label for="ss">Siège social: </label>
+                </div>
+                <div class="col2">
+                    <input type="text" id="ss" name="ss" placeholder="adresse, code postal, ville...">
+                </div>   
+            </div>
+            <div class="ligne">
+                <div class="col1">
+                    <label for="mail">Adresse mail </label>
+                </div>
+                <div class="col2">
+                    <input type="text" id="mail" name="mail">
+                </div>
+            </div>
+            <div class="ligne">
+                <div class="col1">
+                    <label for="num">Numéro délivré par la<br> préfecture: </label>
+                </div>
+                <div class="l2">
+                    <input type="text" id="num" name="num">
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
+    <div class="hform">
+        <label from="choixC">Choisir une couleur: </label>
+        <input type="color" id="choixC" name="choixC">
+        <button onclick="changeColor()">Changer de couleur</button>
+    </div>
+    <form id="formulaire2">
+        <fieldset>
+            <legend>Calcul de la subvention</legend>
+            <div class="ligne">
+                <div class="col1">
+                    <label for="nbM">Nombre de membres: </label>
+                </div>
+                <div class="col2">
+                    <input type="text" id="nbM" name="nbM">
+                </div>
+                
+            </div>
+            <div class="ligne">
+                <div class="col1">
+                    <label for="subD">Subvention désirée: </label>
+                </div>
+                <div class="col3">
+                    <input type="text" id="subD" name="subD">
+                    <button onclick="calculerS()" type="button">calculer</button>
+                </div>
+            </div>
+            <div class="ligne1">
+                <label for="subM">subvention max:</label>
+                <output name="res" id="sm"></output>€
+            </div>
+            <div class="ligne1">
+                <label for="desc">Description rapide de<br>l'utilisation des fonds:</label><br>
+                <textarea name="description" style="width: 350px; height: 100px;" placeholder="description"></textarea>
+            </div>
+            <button onclick="validerB()" type="button">Valider</button>
+            <button onclick="resetB()" type="button">Effacer</button>
+        </fieldset>
+    </form>
+    <a href="https://www.kooora.com/" target="_blank">Législation sur les associations</a>
+</body>
+</html>

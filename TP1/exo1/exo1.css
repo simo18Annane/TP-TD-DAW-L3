@@ -1,0 +1,86 @@
+fieldset {
+    background-color: rgb(165, 163, 163);
+    border: 3px solid pink;
+    width: 600px;
+}
+
+legend {
+    text-align: center;
+    color: rgb(252, 161, 176);
+    padding-bottom: 1%;
+    font-weight: bolder;
+}
+
+select {
+    padding-right: 130px;
+    border-radius: 4px;
+}
+
+.col1 {
+    float: left;
+    width: 60%;
+}
+.col2 {
+    float: left;
+    width: 40%;
+    margin-bottom: 5%;
+}
+.ligne {
+    display: table-row;
+}
+
+
+
+.l2 {
+    float: left;
+    width: 40%;
+    margin-bottom: 5%;
+    padding-top: 6%;
+}
+
+.col3 {
+    float: left;
+    width: 40%;
+    margin-bottom: 5%;
+    display: flex;
+    
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+}
+
+.col3 input {
+    margin-right: 5%;
+}
+
+input[id=ss] {
+    padding-right: 30%;
+}
+
+.ligne1 {
+    margin-bottom: 5%
+}
+
+output {
+    background-color: yellow;
+    padding-right: 3%;
+    border: 1px solid red;
+}
+
+.hform {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.hform label {
+    margin-right: 5%;
+}
+
+a {
+    color: blue;
+}
+
+.hform button {
+    border: 1px solid gray;
+}

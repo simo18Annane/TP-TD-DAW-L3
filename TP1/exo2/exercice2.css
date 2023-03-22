@@ -1,0 +1,11 @@
+/*.rouge:first-of-type{
+    color: red;
+}
+
+.vert {
+    color: green;
+}
+
+b:nth-of-type(2n){
+    color: blue;
+}*/
