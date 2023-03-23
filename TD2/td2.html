@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="td2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="all">
+        <div class="part1">
+            <h4>COMMANDES <span id="nbrelm"></span></h4>
+            <!--<button id="b0" type="button" onclick="sign()">Changement</button>-->
+        </div>
+        <div class="part2">
+            <ul class="lst">
+                <li class="liste">Oeufs</li>
+                <li class="liste">Sucre</li>
+                <li class="liste">Farine</li>
+                <li class="liste">Huile</li>
+            </ul>
+        </div>
+        <div class="part3">
+            <!--<textarea id="infoCoul" name="infoCoul" readonly></textarea>-->
+            <button id="b1" type="button" onclick="show()">NOUVEAU PRODUIT</button>
+            <input type="text" id="ajoutprd" name="ajoutprd" placeholder="Ajouter un produit">
+            <button id="b2" type="button" onclick="ajout()">AJOUT</button>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="td2jq.js"></script>
+    
+</body>
+</html>
