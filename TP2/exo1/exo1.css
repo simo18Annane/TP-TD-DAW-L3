@@ -1,0 +1,45 @@
+body {
+    background-color: grey;
+}
+
+.zoneRedac {
+    width: 300px;
+    height: auto;
+    background-color: white;
+    padding-bottom: 2%;
+}
+
+.zoneAjout {
+    text-align: center;
+}
+
+input {
+    margin-top: 4%;
+    margin-left: -10%;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+input:focus {
+    border-color: blue;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+li {
+    margin-right: 2%;
+}
+li:hover {
+    background-color: rgb(182, 180, 180);
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
