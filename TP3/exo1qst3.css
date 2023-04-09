@@ -1,0 +1,12 @@
+.color {
+    background-color: #b6b4b4;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td {
+    border: none;
+    padding: 5px;
+}

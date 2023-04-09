@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<universite>
+  <Groupe numero="2.1">
+    <etudiant>ANDRIOT Emmanuel</etudiant>
+    <etudiant>BAUDSON Jérémy</etudiant>
+    <etudiant>MEUNIER Jonathan</etudiant>
+    <etudiant>SAINT-ANDRE Ugo</etudiant>
+    <etudiant>YVON Stéphane</etudiant>
+    <etudiant>ABAKAR  Issa</etudiant>
+    <etudiant>DIALLO Alhoussien</etudiant>
+    <etudiant>DIALLO Mohamed Mouctar</etudiant>
+    <etudiant>GAUTHIER Thomas</etudiant>
+    <etudiant>GESQUIERE Antoine</etudiant>
+    <etudiant>HADDOU Adam</etudiant>
+  </Groupe>
+  <Groupe numero="2.2">
+    <etudiant>BONNEVILLE Paul</etudiant>
+    <etudiant>DE OLIVEIRA Shirley</etudiant>
+    <etudiant>DIDIER-LAURENT Jérémie</etudiant>
+    <etudiant>GERBEAULT Juline</etudiant>
+    <etudiant>LUCE Guillaume</etudiant>
+    <etudiant>RAZE-AUBLANC Antoine</etudiant>
+    <etudiant>BIDOLET Quentin</etudiant>
+    <etudiant>BUSSIERE Antoine</etudiant>
+    <etudiant>COLEIRO Loric</etudiant>
+    <etudiant>EL-QADDOURY Hatim</etudiant>
+    <etudiant>GODINHO Nicolas</etudiant>
+    <etudiant>LE GAL Nicolas</etudiant>
+  </Groupe>
+  <Groupe numero="2.3">
+    <etudiant>ABDALLAH Hadi</etudiant>
+    <etudiant>GASSNER Léandre</etudiant>
+    <etudiant>MICELI Marie</etudiant>
+    <etudiant>SZYMCZAK Maxime</etudiant>
+    <etudiant>TOHOUNGBA Audric</etudiant>
+    <etudiant>TOUITOU Orval</etudiant>
+    <etudiant>DITTER Gabriel</etudiant>
+    <etudiant>DRUHOT Eric</etudiant>
+    <etudiant>EL KSISAR Toufik</etudiant>
+    <etudiant>HALLE Julien</etudiant>
+    <etudiant>HOUEL Aymeric</etudiant>
+    <etudiant>ROUSSEAU Thomas</etudiant>
+  </Groupe>
+  <Groupe numero="2.4">
+    <etudiant>BUATOIS Florian</etudiant>
+    <etudiant>FARSI Mohamed Amine</etudiant>
+    <etudiant>GAUGY Gregory</etudiant>
+    <etudiant>SONZA Victor</etudiant>
+    <etudiant>ZEEUW Lucas</etudiant>
+    <etudiant>ZEHNDER Théo</etudiant>
+    <etudiant>BAH Mamadou  Dian</etudiant>
+    <etudiant>FLACELIERE Louise</etudiant>
+    <etudiant>FROMENTIN Hugo</etudiant>
+    <etudiant>GUYOT LAURYNE</etudiant>
+    <etudiant>MAMET Jean-Baptiste</etudiant>
+  </Groupe>
+  <Groupe numero="2.5">
+    <etudiant>BERTHAUD Fanny</etudiant>
+    <etudiant>CAPRON Mélina</etudiant>
+    <etudiant>DOLE Pierre-Emmanuel</etudiant>
+    <etudiant>HUGOT Loïc</etudiant>
+    <etudiant>MERABI Mamar</etudiant>
+    <etudiant>PLANCON Rudy</etudiant>
+    <etudiant>AMRIOUT  Salima</etudiant>
+    <etudiant>CHATELAIN Virgile</etudiant>
+    <etudiant>ENJALBERT Quentin</etudiant>
+    <etudiant>GODIN François</etudiant>
+    <etudiant>JOBEY Valentin</etudiant>
+    <etudiant>PREVOST Florian</etudiant>
+  </Groupe>
+  <Groupe numero="2.6">
+    <etudiant>CHAPELON Paul</etudiant>
+    <etudiant>MARMONT Stéphanie</etudiant>
+    <etudiant>MAUCOLOT Anthony</etudiant>
+    <etudiant>PIERRE Laurent</etudiant>
+    <etudiant>REGNIER Loïs</etudiant>
+    <etudiant>BEUR Gwenael</etudiant>
+    <etudiant>BONIN Jérémy</etudiant>
+    <etudiant>CHAUDOUET Benjamin</etudiant>
+    <etudiant>DA SILVA Antoine</etudiant>
+    <etudiant>E SILVA Thomas</etudiant>
+  </Groupe>
+</universite>
+    
